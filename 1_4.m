@@ -21,8 +21,14 @@ tau_u238 = halflife_uranium_238 / log(2);
 tau_t234 = halflife_thorium_234 / log(2);
 
 
-%setup time domain
 
+
+dt = input("Please enter your delta-t value: ")
+t2 = input("Please enter your t-final value: ")
+tau_a = input("Please enter your tau_a value: ")
+tau_b = input("Please enter your tau_b value: ")
+
+%setup time domain
 %dt = 1e+3;
 t1 = 0;
 %t2 = 1e+8;
@@ -31,12 +37,6 @@ t = t1:dt:t2;
 %assign tau_a and tau_b
 %tau_a = tau_u238;
 %tau_b = tau_t234;
-
-dt = input("Please enter your delta-t value: ")
-t2 = input("Please enter your t-final value: ")
-tau_a = input("Please enter your tau_a value: ")
-tau_b = input("Please enter your tau_b value: ")
-
 
 disp(tau_a)
 disp(tau_b)
