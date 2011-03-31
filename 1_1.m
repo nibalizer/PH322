@@ -1,8 +1,9 @@
 %Spencer Krum
-%PH322 Problem 1
+%PH322 Problem 1.1
 %
 
 %euler formula to do diffeq dv/dt = -g
+%dv(0) = 0
 %from t = 0, t= 10
 %using various timesteps
 
@@ -20,13 +21,14 @@ t1 = 0;
 t2 = 10;
 t = t1:dt:t2;
 
-y(1) = 0;
+velocity(1) = 0;
 
 
 for i=1:length(t)-1,
-    y(i+1) = y(i) + -g;
+    velocity(i+1) = velocity(i) + -g*dt;
 end
 
-plot(t,y,'-ok')
+plot(t,velocity,'-ok')
+pause()
 
   
