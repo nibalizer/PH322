@@ -24,9 +24,9 @@ tau_t234 = halflife_thorium_234 / log(2);
 
 
 dt = input('Please enter your delta-t value: ')
-t2 = input("Please enter your t-final value: ")
-tau_a = input("Please enter your tau_a value: ")
-tau_b = input("Please enter your tau_b value: ")
+t2 = input('Please enter your t-final value: ')
+tau_a = input('Please enter your tau_a value: ')
+tau_b = input('Please enter your tau_b value: ')
 
 %setup time domain
 %dt = 1e+6;
