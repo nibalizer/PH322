@@ -31,7 +31,7 @@ t = t1:dt:t2;
 
 
 for i=1:length(t)-1,
-    N(i+1) = N(i) + ((a * N(i)) - (b * (N(i)**2)))*dt;
+    N(i+1) = N(i) + ((a * N(i)) - (b * (N(i)^2)))*dt;
     fprintf('T:\t%f\tN:\t%f\n', t(i), N(i))
 end
 
