@@ -3,13 +3,15 @@
 
 %population growth
 %dN/dt = a * N - b*(N**2)
+clear
+close all
 
 
 dt = input('Please enter your delta-t value: ')
 t2 = input('Please enter your t-final value: ')
-%a = input('Please enter your a value: ')
-%b = input('Please enter your b value: ')
-%N(1) = input('Please enter your starting population value: ')
+a = input('Please enter your a value: ')
+b = input('Please enter your b value: ')
+N(1) = input('Please enter your starting population value: ')
 
 %setup time domain
 %dt = 1e-4;
@@ -22,9 +24,9 @@ t = t1:dt:t2;
 %N(1) = 10;
 %N(1) = 1000;
 
-a = 10;
-b = 3;
-N(1) = 10;
+%a = 10;
+%b = 3;
+%N(1) = 10;
 
 %a = 10;
 %b = 0.01;

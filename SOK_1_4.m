@@ -13,6 +13,8 @@
 % halflife = ln(2) * tau
 % tau = halflife / ln(2)
 % ln(2) ~ 0.69315
+clear
+close all
 
 halflife_uranium_238 = 4.5 * 1000000000 * 365 * 24 * 60 * 60;
 halflife_thorium_234 =  24 * 24 * 60 * 60;

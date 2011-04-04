@@ -10,11 +10,12 @@
 
 %general form of euler Val(t + dt) = val(T) + dval(t) * dt
 %cool thing is dval(t) is defined as -g for all vals
+clear
+close all
 
 g = 9.8
 
 dt = .01
-
 
 t1 = 0;
 
@@ -22,7 +23,6 @@ t2 = 10;
 t = t1:dt:t2;
 
 velocity(1) = 0;
-
 
 for i=1:length(t)-1,
     velocity(i+1) = velocity(i) + -g*dt;
