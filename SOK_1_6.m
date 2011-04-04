@@ -5,10 +5,10 @@
 %dN/dt = a * N - b*(N**2)
 
 
-dt = input("Please enter your delta-t value: ")
-t2 = input("Please enter your t-final value: ")
-a = input("Please enter your a value: ")
-b = input("Please enter your b value: ")
+dt = input('Please enter your delta-t value: ')
+t2 = input('Please enter your t-final value: ')
+a = input('Please enter your a value: ')
+b = input('Please enter your b value: ')
 
 %setup time domain
 %dt = 1e-4;
