@@ -1,0 +1,6 @@
+problem 2.14
+problem 2.18
+3_3: Find the root of f(a) = cos(x)-x = 0 by the method of bisection: How many iterations are necessary to determine the root to eight significant figures?
+3_4: Repeat 3_3 by using the Newton-Raphson and secant methods, Compare the effor to find the roots with 3_3.
+
+
