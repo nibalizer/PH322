@@ -31,5 +31,5 @@ y = inline_fun1(t);
 
 pks = findpeaks(y);
 
-fprintf('%f',pks)
+fprintf('%f\n',pks)
 

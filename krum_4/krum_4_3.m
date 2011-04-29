@@ -18,7 +18,7 @@ close all
 
 %Print name of Problem
 
-fprintf('%s', 'Baseball with a 10mph crosswind')
+fprintf('%s', 'Model that there pendulum')
 
 %precalculation
 
