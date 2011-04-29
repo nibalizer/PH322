@@ -46,6 +46,7 @@ end;
 %% Newton-Raphson:  finding roots
 
 fprintf('\n Newton-Raphson \n')
+tol=1e-10;                          %Rel. tolerance--> 1E-10
 x=7.39085e-001;
 x=1;
 i=0;
