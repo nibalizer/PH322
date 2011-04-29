@@ -5,10 +5,11 @@
 %Text of the Problem:
 %For the anharmonic oscillator of (3.9) in the previous excersise. it is possible to analytically obtain the period of oscillation for general values of alpha in terms of certian special functions. Do this, and describet how the relationship between the period and the amplitude depends onthe value of alpha. Can you give a physical intrepretation to the finding. Hint: if you multiply both sides of (3.9) by dx/dt you can integrate with respect to t. This then leads to r elation between the velocity and x.
 %General plan of solution:
-%   1) Construct working Baseball simulator
-%   2) Add in crosswind by introducing a new Z component
-%       a) Total velocity is now v = sqrt(x^2 + y^2 + z^2) 
-%       b) Need a new angle phi, for direction in Z-X plane
+%   Solve analytically for v(x)
+%   Graph
+
+%Begin analytical solution:
+%
 
 %general form of euler Val(t + dt) = val(T) + dval(t) * dt
 
